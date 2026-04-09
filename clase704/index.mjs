@@ -1,5 +1,7 @@
 //console.log("Hola Mundo");
+//FS Gestion de archivos en node 
 import fsp from 'node:fs/promises'
+//Gestion de nombres de rutas en los distintos OS
 import path from 'node:path'
 
 try {
@@ -9,3 +11,7 @@ try {
 } catch (e) {
   console.log(e)
 }
+
+
+
+

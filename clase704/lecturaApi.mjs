@@ -7,8 +7,8 @@ try {
   console.log(productos)
 
   const ruta = path.join('./datosApi.txt')
-  await fsp.writeFile(ruta, JSON.stringify(productos, null, 2))
-  console.log("Datos guardados en datosApi.txt")
+  const guardarDatos = JSON.stringify(productos, null, 5)
+  await fsp.writeFile(ruta, guardarDatos)
 } catch (e) {
   console.log(e)
 }
