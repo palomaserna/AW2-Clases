@@ -1,0 +1,31 @@
+### Viendo peticiones-REST CLIENT
+
+### esto va del cliente al servidor GET https://ies21.edu.ar/ HTTP/1.1
+###User-Agent: vscode-restclient
+###accept-encoding: gzip, deflate (cabeceras)
+
+
+###-----------------
+# GET
+GET https://ies21.edu.ar/
+
+###-----------------
+#GET - usuarios mockapi
+GET https://69cbcb780b417a19e07b42c1.mockapi.io/api/v1/Productos
+
+###-----------------
+get http://localhost:3000
+
+###-----------------
+# POST
+POST  http://localhost:3000
+Content-Type: 'text/plain'
+
+Contenido mas largo
+
+###-----------------
+# PUT
+PUT  http://localhost:3000
+###-----------------
+# DELETE
+DELETE   http://localhost:3000
