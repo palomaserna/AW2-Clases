@@ -1,0 +1,25 @@
+{
+  "name": "aw2-clases",
+  "version": "1.0.0",
+  "description": "Repositorio de clases",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.mjs",
+    "start": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palomaserna/AW2-Clases.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/palomaserna/AW2-Clases/issues"
+  },
+  "homepage": "https://github.com/palomaserna/AW2-Clases#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
